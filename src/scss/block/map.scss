@@ -1,0 +1,25 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.map {
+    background: yellow;
+    @include outline;
+    height:700px;
+    width: 97%;
+    margin:5px;
+    &__article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 18rem;
+    }
+
+}
+@media screen and (max-width: 992px){
+    .map__article{
+        font-size: 1.8rem;
+    }
+
+
+}

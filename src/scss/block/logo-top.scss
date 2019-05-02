@@ -1,0 +1,25 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.logo-top {
+   &__wrap{
+       display: block;
+
+   }
+
+    &__img {
+        display: block;
+        cursor: pointer;
+        width: 30px;
+
+    }
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 480px){
+    .logo-top {
+        flex: 0 1 80%;
+    }
+}

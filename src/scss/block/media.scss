@@ -1,0 +1,30 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+/* Medium Devices, Desktops */
+
+@media screen and (max-width: 992px) {
+    .wrapper{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .nav-main{
+        display: none;
+
+    }
+
+    .requirements{
+        width: 100%;
+    }
+
+    .s-chords__left {
+        background: red;
+
+    }
+
+}
+@media(max-width:700px) {
+
+}
