@@ -7,18 +7,4 @@
     width: 97%;
     margin: 5px;
     height: 700px;
-    &__article {
-
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: 18rem;
-    }
-}
-@media screen and (max-width: 992px){
-    .portfolio__article{
-        font-size: 1.8rem;
-    }
-
 }
