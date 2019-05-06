@@ -122,39 +122,36 @@ a {
     outline: 0;
     &:active,
     &:focus,
-    &:hover{
+    &:hover {
         color: $main-color;
         text-decoration: none;
         outline: 0;
     }
 }
+
 /*  MAIN STYLES */
 body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-size:100%;
+    font-size: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #ddd;
     font-family: "Open Sans", sans-serif;
     color: #333;
     line-height: 1.5;
+    top: 7%;
 }
 
 .wrap-site {
-    @include outline;
+    //@include outline;
     background-color: #fff;
     max-width: 1680px;
     min-width: 320px;
     margin: 0 auto;
-    top: 80px;
     @include box-shadow(0, 2px, 5px, #555);
 }
-
-
-
-
 
 .requirements {
     display: flex;
@@ -163,13 +160,20 @@ body {
     margin: 10px auto;
     width: 60%;
     height: 200px;
-    @include outline;
+    //@include outline;
+}
+
+//second block
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main {
     margin: 10px 0 10px 0;
     width: 100%;
-    @include outline;
+    //@include outline;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -177,10 +181,9 @@ body {
 
 }
 
-
 .main-footer {
     margin: 10px 0 0 0;
-    @include outline;
+    //@include outline;
     height: 100px;
     background: #ccc;
 }

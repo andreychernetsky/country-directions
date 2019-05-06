@@ -1,0 +1,17 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.title {
+    width:90%;
+    //@include outline;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    &__main {
+        font-size:1.9rem;
+        text-align: center;
+    }
+    &__text {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+}
