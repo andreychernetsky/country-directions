@@ -33,18 +33,7 @@ article, aside, details, main, figcaption, figure, footer, header, hgroup, menu,
     display: block;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Tahoma, sans-serif;
-    line-height: 1;
-    background-color: #ffffff;
-    height: 100%;
-    position: relative;
-    font-size: 13px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+
 
 table {
     border-collapse: collapse;
@@ -141,7 +130,7 @@ body {
     font-family: "Open Sans", sans-serif;
     color: #333;
     line-height: 1.5;
-    top:26%;
+    top:20%;
 }
 
 .wrap-site {
