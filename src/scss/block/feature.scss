@@ -1,0 +1,42 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 20px 0;
+    //@include outline;
+    &__wrap {
+        width: 25%;
+        height:auto;
+        //@include outline;
+    }
+    &__icon {
+        padding-right: 3px;
+    }
+    &__block {
+
+    }
+    &__title {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    .feature{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__wrap {
+        margin: 0;
+    }
+}

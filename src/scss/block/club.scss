@@ -5,20 +5,14 @@
     width:100%;
     margin-top: 10px;
     height:auto;
-    padding: 40px;
+    padding: 40px 5px;
     background:#eeeeee;
     display: flex;
     flex-direction: column;
     align-items: center;
     color:#2A4C3B;
-    //@include outline;
-    &__feature {
-        width: 95%;
-        height:auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    @include outline;
+
 
 }
 @media only screen and (max-width: 992px){
