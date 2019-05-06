@@ -2,23 +2,24 @@
 @import "../partials/mixins";
 
 .about {
-    background: blue;
-    @include outline;
-    width: 97%;
-    margin: 5px;
+    width: 100%;
     height: 700px;
-    &__figure {
-        margin: 0 10px 2px 0;
-        @include outline;
-        float: left;
+    padding: 50px;
+    background:#eeeeee;
+    display: flex;
+    flex-direction: column;
+    color:#2A4C3B;
+    &__article {
+        width: 95%;
+        height:auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    &__img {
-        max-width: 100%;
-    }
-    &__p-t {
-        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-        font-size: 1.3rem;
-        text-align: justify;
-    }
+    &__time {
 
+    }
+    &__link {
+        color:#2A4C3B;
+    }
 }

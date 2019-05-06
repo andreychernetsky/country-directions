@@ -2,10 +2,8 @@
 @import "../partials/mixins";
 
 .contacts {
-    background: green;
-    @include outline;
-    width: 97%;
-    margin: 5px;
+    width: 100%;
     height: 700px;
-
+    padding: 50px;
+    background:red;
 }

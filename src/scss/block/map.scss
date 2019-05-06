@@ -2,10 +2,8 @@
 @import "../partials/mixins";
 
 .map {
-    background: yellow;
-    @include outline;
-    height:700px;
-    width: 97%;
-    margin:5px;
-
+    width: 100%;
+    height: 700px;
+    padding: 50px;
+    background:blue;
 }
