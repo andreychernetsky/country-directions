@@ -96,13 +96,13 @@ button {
 }
 
 a {
-    color: $main-color;
+    color: $accent-color;
     text-decoration: none;
     outline: 0;
     &:active,
     &:focus,
     &:hover {
-        color: $main-color;
+        color: $hover-color;
         text-decoration: none;
         outline: 0;
     }

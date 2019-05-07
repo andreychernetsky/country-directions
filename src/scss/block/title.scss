@@ -2,12 +2,12 @@
 @import "../partials/mixins";
 
 .title {
-    width:90%;
+    width: 90%;
     //@include outline;
     padding-top: 100px;
     padding-bottom: 70px;
     &__main {
-        font-size:1.9rem;
+        font-size: 1.9rem;
         text-align: center;
     }
     &__text {
@@ -15,6 +15,7 @@
         text-align: center;
     }
 }
+
 @media only screen and (max-width: 992px) {
     .title {
         width: 100%;
@@ -22,10 +23,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        &__link {
+            color: #2A4C3B;
+        }
+
         &__main {
             font-size: 1.5rem;
+            color: #2A4C3B;
         }
-        &__text{
+        &__text {
             font-size: 1.3rem;
         }
     }
