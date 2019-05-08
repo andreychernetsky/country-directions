@@ -166,6 +166,18 @@ a {
 .hide {
     display: none !important;
 }
+.grid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.headline {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
 
 @media only screen and (max-width: 992px) {
     .main {

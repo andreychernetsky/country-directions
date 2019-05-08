@@ -1,0 +1,58 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    &__item {
+        margin: 0.5%;
+        position: relative;
+    }
+    &__overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .7);
+        &:hover {
+            background: rgba(0, 0, 0, .5);
+            transition: .5s;
+        }
+
+    }
+
+    &__picture {
+        max-width: 100%;
+        display: block;
+    }
+    &__link {
+        color: #eeeeee;
+        text-align: center;
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+    &__text {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    .grid{
+        max-width: 100%;
+        text-align: center;
+    }
+    &__picture {
+        max-width: 100%;
+        display: block;
+    }
+
+
+}
