@@ -17,9 +17,9 @@ $(document).ready(function() {
 
 });
 
-var DELAY = 300;
+var DELAY = 200;
 var CURRENT_SLIDE = 1;
-// var ANIMATION_DELAY = 6000;
+ var ANIMATION_DELAY = 6000;
 
 var slider = document.querySelector('.slider');
 
