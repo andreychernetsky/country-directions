@@ -35,6 +35,13 @@
         text-align: center;
 
     }
+    &__zoom {
+        margin: 12px 0;
+        position: relative;
+        padding-top: 69.56%;
+        overflow: hidden;
+        border-radius: 10px;
+    }
     &__icon {
         padding-right: 3px;
     }
