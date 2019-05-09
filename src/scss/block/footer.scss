@@ -26,7 +26,7 @@
         }
         & .nav__link {
             text-transform: uppercase;
-            color:$footer-color;
+            color: $footer-color;
             transition: .3s all;
             &:hover {
                 color: #ffffff;
@@ -34,20 +34,33 @@
         }
     }
     &__content {
-        width:100%;
+        width: 100%;
         display: flex;
-        padding: 20px 0;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
         line-height: 1.7;
         font-size: 0.9rem;
     }
     &__block {
-        width:32%;
+        width: 30%;
+        padding: 10px;
+    }
+    &__contact {
+        width: 30%;
+        &__icon {
+            margin-right: 7px;
+        }
+    }
+
+    &__wrap {
         padding: 20px;
     }
     &__text {
         font-size: 1.1rem;
     }
     &__map {
+        width: 38%;
         display: flex;
         padding: 0 5px;
         border-right: 1px solid $footer-color;
@@ -69,18 +82,47 @@
 
         }
         & .list__icon {
-padding-right: 3px;
+            padding: 3px;
         }
 
     }
 
-    &__contact {
-        & .contact__icon {
-            margin-right: 7px;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer {
+        width: 100%;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            flex-flow: row wrap;
         }
-        & .contact__item {
-            margin-bottom: 5px;
+        &__block {
+            text-align: center;
+            width: 100%;
+            border-top: 1px solid $footer-color;
+            border-bottom: 1px solid $footer-color;
+        }
+        &__map {
+            height: auto;
+            padding: 10px 0;
+            width: 100%;
+            display: flex;
+            border-bottom: 1px solid $footer-color;
+            border-left: none;
+        }
+        &__list {
+            text-align: center;
+            display: block;
+            max-width: 100%;
+        }
+        &__contact {
+            padding: 10px 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
-
 }
