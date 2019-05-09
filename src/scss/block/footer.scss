@@ -100,14 +100,14 @@
         }
         &__block {
             text-align: center;
-            width: 100%;
+            max-width: 100%;
             border-top: 1px solid $footer-color;
             border-bottom: 1px solid $footer-color;
         }
         &__map {
             height: auto;
             padding: 10px 0;
-            width: 100%;
+           max-width: 100%;
             display: flex;
             border-bottom: 1px solid $footer-color;
             border-left: none;
@@ -119,7 +119,7 @@
         }
         &__contact {
             padding: 10px 0;
-            width: 100%;
+            max-width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
