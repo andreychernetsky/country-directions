@@ -1,0 +1,79 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.footer {
+    height: auto;
+    width: 100%;
+    background-color: $footer-bg-color;
+    color: $footer-color;
+    padding-bottom: 20px;
+    &__header {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 0;
+        border-bottom: 2px solid $footer-color;
+    }
+    &__friend {
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+    &__nav {
+        @include clear-list;
+        display: flex;
+        & .nav__item {
+            margin: 0 10px;
+            font-size: 1rem;
+        }
+        & .nav__link {
+            text-transform: uppercase;
+            color:$footer-color;
+            transition: .3s all;
+            &:hover {
+                color: #ffffff;
+            }
+        }
+    }
+    &__content {
+        width:100%;
+        display: flex;
+        padding: 20px 0;
+        line-height: 1.7;
+        font-size: 0.9rem;
+    }
+    &__block {
+        width:32%;
+        padding: 20px;
+    }
+    &__text {
+        font-size: 1.1rem;
+    }
+    &__map {
+        display: flex;
+        padding: 0 5px;
+        border-right: 1px solid $footer-color;
+        border-left: 1px solid $footer-color;
+    }
+    &__list {
+        @include clear-list;
+        width: 50%;
+        font-size: 1rem;
+        padding-right: 5px;
+        & .list__item {
+            padding: 5px;
+        }
+        & .list__link {
+            color: $footer-color;
+            &:hover {
+                color: #fff;
+            }
+
+        }
+        & .list__icon {
+padding-right: 3px;
+        }
+
+    }
+
+
+
+}

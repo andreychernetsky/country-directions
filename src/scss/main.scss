@@ -146,6 +146,7 @@ a {
 }
 
 
+
 .main {
     margin: 10px auto;
 
@@ -157,11 +158,8 @@ a {
 
 }
 
-.main-footer {
-    margin: 10px 0 0 0;
-    //@include outline;
-    height: 100px;
-    background: #ccc;
+.club__contact {
+    width: 100%;
 }
 .hide {
     display: none !important;
