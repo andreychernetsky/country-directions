@@ -2,10 +2,21 @@
 @import "../partials/mixins";
 
 .footer-logo {
-    position: absolute;
+    position: relative;
+
     &__picture {
         width: 60px;
         padding: 5px;
+        &:hover{
+            background:$footer-color;
+            transition: 1.5s;
+        }
+    }
+    &__link {
+
+        outline: 0;
+        color:#555;
+
     }
 
 }

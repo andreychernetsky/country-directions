@@ -1,0 +1,35 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.logo-top {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    display: flex;
+    &__title {
+
+        color: white;
+        font-family: 'Eurofurence';
+        font-weight: normal;
+        font-size: 1.5rem;
+    }
+    &__link {
+        font-size: 1.5rem;
+        display: block;
+        font-family: 'Eurofurence';
+        color:#fff;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+            color: $footer-color;
+        }
+    }
+    &__dot {
+        color: white;
+        font-family: 'Eurofurence';
+        font-weight: normal;
+        font-size: 1.5rem;
+        color: rgb(88, 201, 58);
+    }
+}
