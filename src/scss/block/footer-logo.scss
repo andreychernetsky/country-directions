@@ -1,0 +1,11 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.footer-logo {
+    position: absolute;
+    &__picture {
+        width: 60px;
+        padding: 5px;
+    }
+
+}
