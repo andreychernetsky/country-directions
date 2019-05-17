@@ -110,6 +110,7 @@ a {
 
 /*  MAIN STYLES */
 .wrapper {
+
     background: url("img/retina_wood.png");
     margin: 0;
     padding: 0;
@@ -129,7 +130,7 @@ a {
 .wrap-site {
     //@include outline;
     background-color: #fff;
-    max-width: 1080px;
+    width: $view-port;
     min-width: 320px;
     margin: 0 auto;
     @include box-shadow(0, 2px, 5px, #555);
@@ -153,9 +154,7 @@ a {
 
     //@include outline;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  @include flex-column;
 
 }
 
@@ -177,6 +176,17 @@ a {
     font-size: 1.75rem;
     font-weight: 400;
     margin: 2rem 0;
+}
+//оформление говори правду
+.offer-row {
+    margin-top:20px;
+    width:$view-port;
+    @include  space-between;
+    flex-flow: row wrap;
+}
+.about {
+    width:$view-port;
+    //@include outline;
 }
 
 @media only screen and (max-width: 992px) {

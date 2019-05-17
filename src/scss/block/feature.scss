@@ -63,9 +63,7 @@
 @media only screen and (max-width: 992px) {
     .feature {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex-column;
     }
     &__wrap {
         margin: 0;

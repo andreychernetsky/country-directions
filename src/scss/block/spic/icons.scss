@@ -1,0 +1,17 @@
+@import "../../partials/params";
+@import "../../partials/mixins";
+
+.icons {
+@include center;
+    &__item {
+     width: 60px;
+        height:60px;
+        //@include outline;
+        border-radius: 50%;
+    }
+    &__item a {
+        color: #000;
+        font-size: 42px;
+        transition: all 0.3s ease;
+    }
+}

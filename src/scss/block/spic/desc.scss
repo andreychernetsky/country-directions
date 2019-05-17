@@ -1,0 +1,24 @@
+@import "../../partials/params";
+@import "../../partials/mixins";
+
+.desc {
+    @include space-around;
+margin-bottom: 65px;
+    &__icon {
+
+    }
+    &__info {
+        width: 33%;
+
+    }
+    &__block {
+        padding: 5px;
+    }
+    &__title {
+text-align: center;
+    }
+    &__text {
+text-align: center;
+    }
+
+}

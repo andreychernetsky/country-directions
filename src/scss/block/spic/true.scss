@@ -1,0 +1,23 @@
+@import "../../partials/params";
+@import "../../partials/mixins";
+
+
+.true {
+    width: $view-port;
+    height:auto;
+    margin-top: 10px;
+    position: relative;
+
+    &__article {
+
+    }
+    &__text {
+
+    }
+    &__link {
+        display: block;
+        font-size: 1.9rem;
+        color: $footer-color;
+    }
+
+}

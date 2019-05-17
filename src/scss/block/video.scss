@@ -3,11 +3,11 @@
 
 @media only screen and (max-width: 992px) {
     .video {
-       max-width: 100%;
-        text-align: center;
+        margin: 50px auto;
+        border-radius: 10px;
+        display: block;
     }
     &__one {
-        max-width: 100%;
         text-align: center;
     }
 

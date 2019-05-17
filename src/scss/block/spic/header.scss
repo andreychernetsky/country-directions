@@ -1,0 +1,15 @@
+@import "../../partials/params";
+@import "../../partials/mixins";
+
+.header {
+    width: 100%;
+    background:$headerTrue;
+    color: #010101;
+    //@include outline;
+    &__wrap {
+        height: $header-height;
+        width: 100%;
+       @include space-around;
+        //@include outline;
+    }
+}

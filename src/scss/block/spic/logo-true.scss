@@ -1,0 +1,7 @@
+@import "../../partials/params";
+@import "../../partials/mixins";
+
+.logo-true {
+    height: 60px;
+    //@include outline;
+}

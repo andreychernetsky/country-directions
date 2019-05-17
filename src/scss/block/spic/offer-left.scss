@@ -1,0 +1,9 @@
+@import "../../partials/params";
+@import "../../partials/mixins";
+
+.offer-right {
+    margin: 10px;
+    width: 48%;
+    //@include outline;
+
+}

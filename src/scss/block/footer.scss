@@ -62,9 +62,7 @@
     }
     &__content {
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include  space-between;
         flex-flow: row wrap;
         line-height: 1.7;
         font-size: 0.9rem;

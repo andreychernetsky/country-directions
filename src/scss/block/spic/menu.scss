@@ -1,0 +1,18 @@
+@import "../../partials/params";
+@import "../../partials/mixins";
+
+.menu {
+    //@include outline;
+    &__list{
+        margin-top: 8px;
+        @include  space-around;
+        margin-left: 10px;
+        & .list__item {
+            margin: 0 57px;
+        }
+        & .list__link {
+            font-size: 1.3rem;
+        }
+    }
+
+}
